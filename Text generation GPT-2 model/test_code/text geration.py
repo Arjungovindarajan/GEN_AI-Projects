@@ -4,7 +4,7 @@ import json
 
 # Hugging Face API URL and model
 HF_API_URL = "https://api-inference.huggingface.co/models/gpt2"
-HF_HEADERS = {"Authorization": "Bearer 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"}  # You can get an API key from Hugging Face, some models are free to use
+HF_HEADERS = {"Authorization": "Bearer #####Your API_key from Hugging_Face####"}  # You can get an API key from Hugging Face, some models are free to use
 
 # Function to send a request to Hugging Face for text generation
 def chat_with_hf_model(prompt):
